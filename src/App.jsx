@@ -1,5 +1,11 @@
+import Footer from "./components/footer/Footer";
+
 function App() {
-  return <div className="bg-blue-700">app</div>;
+  return (
+    <div>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
