@@ -1,14 +1,15 @@
 import DownloadAppSection from "./components/downloadAppSection/DownloadAppSection";
 import Footer from "./components/footer/Footer";
 import LibrarySection from "./components/librarySection/LibrarySection";
-import TestimonialCard from "./components/testimonials/TestimonialCard";
+
+import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
   return (
     <div>
       <LibrarySection />
-      <TestimonialCard />
       <DownloadAppSection />
+      <Testimonials />
       <Footer />
     </div>
   );
