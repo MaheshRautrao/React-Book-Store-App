@@ -1,3 +1,4 @@
+import BestBooksSection from "./components/bestBooksSection/BestBooksSection";
 import DownloadAppSection from "./components/downloadAppSection/DownloadAppSection";
 import Footer from "./components/footer/Footer";
 import LibrarySection from "./components/librarySection/LibrarySection";
@@ -7,6 +8,7 @@ import TopBooksSection from "./components/topBooksSection/TopBooksSection";
 function App() {
   return (
     <div>
+      <BestBooksSection />
       <TopBooksSection />
       <LibrarySection />
       <DownloadAppSection />
